@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Foooter from "../common/Footer";
-import { RoomSearch } from "../common/RoomSearch";
+import RoomSearch from "../common/RoomSearch";
 import { RoomResult } from "../common/RoomResult";
 
 const HomePage = () => {
