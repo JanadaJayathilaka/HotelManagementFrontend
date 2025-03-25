@@ -28,8 +28,9 @@ const RoomDetailsPage = () => {
         setIsLoading(true); // Set loading state to true
         const response = await ApiService.getRoomById(roomId);
         setRoomDetails(response.room);
-        const userProfile = await ApiService.getUserProfile();
-        setUserId(userProfile.user.id);
+        // const userProfile = await ApiService.getUserProfile();
+
+        setUserId(7);
       } catch (error) {
         setError(error.response?.data?.message || error.message);
       } finally {
